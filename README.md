@@ -12,10 +12,10 @@
 ---
 
 Encore keeps everything you copy (text, images and files) one click away in the menu bar.
-It's built with SwiftUI and AppKit for the macOS 26+ Liquid Glass design, it's fast, and it
-stays out of the way. Long clippings get a short title written on your Mac by Apple
-Intelligence, and any text clipping can be proofread, rewritten, summarized or explained
-without leaving the menu bar.
+It's built with SwiftUI and AppKit for macOS 15 and later, with Liquid Glass on macOS 26+.
+It's fast and stays out of the way. On supported Macs with macOS 26+, long clippings get a
+short title written on your Mac by Apple Intelligence, and text can be proofread,
+rewritten, summarized or explained without leaving the menu bar.
 
 Free and open source. No account, no subscription, no cloud.
 
@@ -66,7 +66,7 @@ Free and open source. No account, no subscription, no cloud.
 - **Recently Deleted.** Deleting is always recoverable for 30 days, with Undo right away.
 - **No duplicates.** Copying something that's already in history moves it to the top.
 
-**Apple Intelligence** (on device, requires an Apple Intelligence–capable Mac)
+**Apple Intelligence** (on device, requires macOS 26+ and an Apple Intelligence–capable Mac)
 - **Smart titles.** Long clippings get a two-to-six-word title ("Flight confirmation email",
   "Python retry decorator"), written in the clipping's own language, so a long list can be
   scanned at a glance. Titles are searchable too.
@@ -111,9 +111,9 @@ The full policy is in [PRIVACY.md](PRIVACY.md).
 
 ## Requirements
 
-- macOS 26 or later. Tested on macOS 27.
-- For Apple Intelligence features: a Mac that supports Apple Intelligence, with it turned
-  on in System Settings → Apple Intelligence & Siri. Everything else works on any Mac.
+- macOS 15 or later.
+- For Apple Intelligence features: macOS 26 or later and a Mac that supports Apple
+  Intelligence, with it turned on in System Settings → Apple Intelligence & Siri.
 
 ## Install
 
